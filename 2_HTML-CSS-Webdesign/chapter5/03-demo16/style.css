@@ -2,8 +2,8 @@ body {
     background-color: #4db1ec;
     background-image: url('images/hero.jpg'), url('images/water.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: cover;
     background-blend-mode: hard-light;
-    height: 100vh;
+    height: 80vh;
 }
