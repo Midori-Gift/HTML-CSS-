@@ -119,7 +119,7 @@ HERO
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-blend-mode: screen;
+    background-blend-mode: hard-light;
     animation: bg-color 24s infinite;
     height: 100vh;
     display: flex;
