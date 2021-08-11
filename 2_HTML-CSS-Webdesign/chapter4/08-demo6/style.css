@@ -8,6 +8,7 @@ a {
     color: #1c00b8;
     display: block;
 }
-a[href$="pdf"] {
-    background: pink;
+
+a[href$="html"] {
+    background: red;
 }

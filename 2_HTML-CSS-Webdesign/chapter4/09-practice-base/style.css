@@ -22,7 +22,7 @@ table {
 th,
 td {
     padding: 1.25rem;
-    display: table-cell;
+    display: table-cel;
 }
 th {
     width: 30%;
@@ -33,13 +33,20 @@ td {
 }
 
 /* 奇数行の背景色を #fee、偶数行の背景色を #ffe */
+tr:nth-child(odd) {
+    background: #fee;
+}
+
+tr:nth-child(even) {
+    background: #ffe;
+}
 
 
 /* グラフ */
 .chart {
     margin: 0 auto;
 }
-.ct-label {
+/* .ct-label {
     font-size: 1rem;
     fill: #fff;
 }
@@ -54,4 +61,27 @@ td {
 }
 .ct-series-d .ct-slice-pie {
     fill: #bbb;
+} */
+
+.ct-label {
+    font-size: 2rem;
+    fill: #ff;
 }
+.ct-series-a .ct-slice-pie {
+    fill:lightskyblue;
+}
+.ct-series-b .ct-slice-pie {
+    fill:magenta;
+}
+.ct-series-c .ct-slice-pie {
+    fill:mediumseagreen;
+}
+.ct-series-d .ctslice-pie {
+    fill:navajowhite;
+}
+
+
+
+
+
+

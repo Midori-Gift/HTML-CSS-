@@ -10,3 +10,6 @@ input {
 input[required] {
     background: pink;
 }
+ input[top] {
+     background: yellow;
+ }
