@@ -42,5 +42,5 @@ h1 {
 /* カーソルをあわせると、背景色を #ff0 にする */
 .btn:hover {
   background: #ff0;
-  transition: 0.5s;
+  transition: 1s;
 }
