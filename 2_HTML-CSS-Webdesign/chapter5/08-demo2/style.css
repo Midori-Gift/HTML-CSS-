@@ -1,4 +1,10 @@
+/* div {
+  background: radial-gradient(#a2e29b, #00a2af);
+  height: 100vh;
+} */
+
+/* 学習用 */
 div {
-    background: radial-gradient(#a2e29b, #00a2af);
-    height: 100vh;
+  background: radial-gradient(#a2343e, lightblue);
+  height: 100vh;
 }

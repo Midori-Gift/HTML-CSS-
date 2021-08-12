@@ -1,6 +1,14 @@
-div {
-    background: #0bd;
-    height: 100vh;
-    -webkit-clip-path: circle(50% at 0 0);
-    clip-path: circle(50% at 0 0);
+/* div {
+  background: #0bd;
+  height: 100vh;
+  -webkit-clip-path: circle(50% at 0 0);
+  clip-path: circle(50% at 25% 25%);
+} */
+
+/* 練習 */
+.seien {
+  background: lightgreen;
+  height: 50vh;
+  clip-path: circle(25% at 30% 50%);
+  flex: 1;
 }
