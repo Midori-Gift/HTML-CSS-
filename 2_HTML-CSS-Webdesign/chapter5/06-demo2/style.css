@@ -1,14 +1,14 @@
 body {
-    padding: 1rem;
-    font-family: sans-serif;
+  padding: 1rem;
+  font-family: sans-serif;
 }
 .recommend {
-    color: tomato;
-    display: inline-block;
-    position: relative;
-    animation: recommend-animation 2s 3;
+  color: tomato;
+  display: inline-block;
+  position: relative;
+  animation: recommend-animation 2s 3;
 }
-@keyframes recommend-animation {
+/* @keyframes recommend-animation {
     0%, 50%, 100% {
         top: 0;
     }
@@ -18,4 +18,18 @@ body {
     75% {
         top: -.5rem;
     }
+} */
+
+@keyframes recommend-animation {
+  0%,
+  50%,
+  100% {
+    top: 0rem;
+  }
+  25% {
+    top: -0.8rem;
+  }
+  75% {
+    top: -0.5rem;
+  }
 }
