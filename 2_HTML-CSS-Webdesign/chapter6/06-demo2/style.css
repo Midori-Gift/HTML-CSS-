@@ -1,19 +1,25 @@
 body {
-    font-family: sans-serif;
-    padding: 2rem;
+  font-family: sans-serif;
+  padding: 2rem;
 }
 p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 img {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 2rem;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 2rem;
 }
 
 .filter1 {
-    filter: brightness(50%);
+  filter: brightness(50%);
 }
 .filter2 {
-    filter: brightness(150%);
+  filter: brightness(150%);
+}
+
+/* 練習 */
+
+img {
+  filter: brightness(150%);
 }
