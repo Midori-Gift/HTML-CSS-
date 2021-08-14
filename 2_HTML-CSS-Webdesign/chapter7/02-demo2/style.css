@@ -1,5 +1,48 @@
+/* div {
+  background: #0bd;
+  height: calc(100vh - 100px);
+  padding: 16px;
+} */
+
+/* calc関数練習 */
+/* div {
+  background: #333;
+  height: calc(90vh - 200px);
+  padding: 16px;
+} */
+
+:root {
+  --maincolor: lightgreen;
+}
+:root {
+  --subcolor: lightblue;
+}
+:root {
+  --accentcolor: yellow;
+}
+
+/* div {
+  background: skyblue;
+  height: calc(100vh - 200px);
+  padding: 30%;
+} */
+
+/* div {
+  background: var(--maincolor);
+  height: 100px;
+  padding: 10px;
+} */
+
+/* div {
+  background: var(--subcolor);
+  height: calc(100vh - 100px);
+  width: 80%;
+  margin: auto;
+} */
+
 div {
-    background: #0bd;
-    height: calc(100vh - 100px);
-    padding: 16px;
+  background: var(--accentcolor);
+  height: calc(100vh - 100px);
+  width: 70%;
+  margin: auto;
 }
