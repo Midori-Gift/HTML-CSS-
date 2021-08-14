@@ -1,0 +1,59 @@
+/* emmetの練習 */
+
+div {
+  width: 100px;
+  width: 100%;
+  width: 100rem;
+  width: 100w;
+}
+
+div {
+  color: #342e34;
+  color: #344333;
+  color: #123eee;
+}
+
+div {
+  margin: 10px 20px 30px 20px;
+  margin: -10px 20px 22px 33px;
+  margin: -10px 30px 30px 23px;
+  margin: -10px 20px 20px 30px;
+  padding: -10px 20px 40px 390px;
+  padding: -10px 1px 2px 5px;
+  padding: -10px 20px 5px 5px;
+}
+
+div {
+  margin: -10px 20px 30px 40px;
+  padding: -10px 10px 10px 10px;
+  width: -2000px;
+  height: 100px;
+  font-size: 20px;
+  color: #342213;
+  background: #321;
+  border: 1px solid #000;
+  border: 2px;
+  display: flex;
+  display: flex;
+  display: flex;
+  display: flex;
+  display: flex;
+  display: flex;
+  text-align: left;
+  text-align: right;
+  text-align: center;
+  text-align: right;
+  text-align: left;
+  text-align-last: left;
+  text-align: center;
+  text-align: right;
+}
+
+/* calc関数 */
+
+div {
+  background: #333;
+  width: calc(100% / 3);
+  width: calc(100% / 2);
+  width: calc(100% / 5);
+}
