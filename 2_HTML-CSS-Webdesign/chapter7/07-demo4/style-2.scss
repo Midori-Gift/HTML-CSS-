@@ -1,0 +1,10 @@
+$sub-color: #bbb;
+$accent-color: #aaa;
+
+.nav {
+  background: var(--sub-color);
+}
+
+footer {
+  background: var(--accent-color);
+}
